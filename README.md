@@ -10,7 +10,9 @@ Proyek ini adalah aplikasi web chatbot sederhana yang dibangun menggunakan Pytho
 * **Kemampuan Kueri:** Berdasarkan implementasi saat ini, tool pencarian memungkinkan agen untuk mencari pesanan berdasarkan kriteria berikut:
     * Nama Pelanggan (`customer_full_name`)
     * Hari Pemesanan (`day_of_week`)
-* **Responsif:** Aplikasi menampilkan pertanyaan pengguna dan jawaban dari AI di antarmuka web.
+    * Nama Product (`product_name`)
+    * Atau hal lain yang anda tambahkan dalam `multi_match` query
+* **Respon:** Aplikasi menampilkan pertanyaan pengguna dan jawaban dari AI di antarmuka web.
 
 ## Struktur File
 
@@ -29,7 +31,7 @@ Proyek ini adalah aplikasi web chatbot sederhana yang dibangun menggunakan Pytho
     cd <nama-direktori-proyek>
     ```
 
-2.  **Buat Virtual Environment (Direkomendasikan):**
+2.  **Buat Virtual Environment (Optional):**
     ```bash
     python -m venv venv
     # Aktivasi (Linux/macOS)
