@@ -6,7 +6,7 @@ Proyek ini adalah aplikasi web chatbot sederhana yang dibangun menggunakan Pytho
 
 * **Antarmuka Web:** Aplikasi menyediakan antarmuka web sederhana menggunakan Flask dan template HTML (`index.html`) untuk berinteraksi dengan chatbot.
 * **Agen Cerdas:** Menggunakan Langchain untuk membuat agen AI (`agent.py`) yang ditenagai oleh model bahasa dari OpenAI (spesifiknya `gpt-4-0613` dalam kode ini).
-* **Tool Pencarian Pesanan:** Agen dilengkapi dengan tool kustom (`GetOrderSummary`) yang berfungsi untuk mengambil data ringkasan pesanan dari Elasticsearch (`elastic.py`).
+* **Tool Pencarian Pesanan:** Agen dilengkapi dengan tool kustom berbasiskan `function call` (`GetOrderSummary`) yang berfungsi untuk mengambil data ringkasan pesanan dari Elasticsearch (`elastic.py`).
 * **Kemampuan Kueri:** Berdasarkan implementasi saat ini, tool pencarian memungkinkan agen untuk mencari pesanan berdasarkan kriteria berikut:
     * Nama Pelanggan (`customer_full_name`)
     * Hari Pemesanan (`day_of_week`)
