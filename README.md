@@ -66,10 +66,10 @@ Proyek ini adalah aplikasi web chatbot sederhana yang dibangun menggunakan Pytho
 ## Teknologi yang Digunakan
 
 * **Python:** Bahasa pemrograman utama.
-* **Flask:** Kerangka kerja web mikro untuk backend dan penyajian HTML.
+* **Flask:** Kerangka kerja micro web untuk backend dan penyajian HTML.
 * **Langchain:** Kerangka kerja untuk membangun aplikasi berbasis LLM, digunakan untuk membuat agen dan tool.
 * **OpenAI API:** Digunakan untuk mengakses model bahasa (LLM).
-* **Elasticsearch:** Database NoSQL yang digunakan untuk menyimpan dan mencari data pesanan.
+* **Elasticsearch:** Sumber data yang digunakan untuk menyimpan dan mencari data pesanan.
 * **HTML/CSS:** Untuk struktur dan gaya antarmuka pengguna web.
 * **Dotenv:** Untuk mengelola variabel lingkungan.
 
