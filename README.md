@@ -72,5 +72,3 @@ Proyek ini adalah aplikasi web chatbot sederhana yang dibangun menggunakan Pytho
 * **Dotenv:** Untuk mengelola variabel lingkungan.
 
 ---
-
-*Catatan: Laporan ini dibuat berdasarkan file kode yang diunggah terakhir. Fitur seperti memori percakapan persisten atau pencarian multi-match yang mungkin telah didiskusikan sebelumnya tidak tercermin dalam kode yang diunggah ini.*
